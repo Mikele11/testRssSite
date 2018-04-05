@@ -1,0 +1,21 @@
+{
+  "name": "testParseRss",
+  "description": "RSS Charkov news Reader in Node.js",
+  "author": "Mikele Iljash",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "feed-read": "0.0.1",
+    "fs": "0.0.1-security",
+    "needle": "^2.2.0",
+    "request": "^2.85.0",
+    "tress": "^1.0.5",
+    "url": "^0.11.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
