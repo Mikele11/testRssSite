@@ -2,6 +2,7 @@
   "name": "testParseRss",
   "description": "RSS Charkov news Reader in Node.js",
   "author": "Mikele Iljash",
+  "version": "1.0.0",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "feed-read": "0.0.1",
@@ -11,8 +12,17 @@
     "tress": "^1.0.5",
     "url": "^0.11.0"
   },
+    "devDependencies": {
+    "yes": "^1.1.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "bower cache clean && bower install"
+  },
   "engines": {
-    "node": "0.10.x"
+   "node": "8.4.0"
   },
   "repository": {
     "type": "git",
