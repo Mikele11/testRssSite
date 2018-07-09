@@ -1,2 +1,2 @@
 # testRssSite
-Треба ввести /news/count, де count - кількість новин, які видаються
+You must enter /news/count, where count - the number of news that is showed
